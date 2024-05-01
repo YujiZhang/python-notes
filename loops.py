@@ -37,6 +37,26 @@ for i in range(len(nums)):
 # i = 3 , list is [1, 2]
 # i = 4 , list is [1]    
 
+'''
+but for-enumerate is evaluated at each loop!
+'''
+nums = [1,2,3,4,5]
+
+for i, item in enumerate(nums):
+
+    print('i =', i, ', list is', nums)    
+    del nums[-1]
+    
+# i = 0 , list is [1, 2, 3, 4, 5]
+# i = 1 , list is [1, 2, 3, 4]
+# i = 2 , list is [1, 2, 3]
+
+
+
+
+
+
+
 
 '''
 use emuerate to loop through indeces and elements
