@@ -38,7 +38,7 @@ for i in range(len(nums)):
 # i = 4 , list is [1]    
 
 '''
-but for-enumerate is evaluated at each loop!
+but for-enumerate is evaluated at each iteration!
 '''
 nums = [1,2,3,4,5]
 
