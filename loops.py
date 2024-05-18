@@ -1,6 +1,21 @@
 # -*- coding: utf-8 -*-
 
 '''
+0 iteration is ok
+'''
+for i in range(0,0):
+    print(i)
+# no output, but no error
+    
+s = ''
+for letter in s:
+    print(letter)
+# no output, but no error
+
+
+
+
+'''
 in while loop, the while condition is re-evaluated at each iteration
 loop length can be adjusted dynamically (eg below by altering `nums`) 
 '''
